@@ -2,7 +2,7 @@ import { expect, it } from 'vitest'
 import { Equal, Expect } from '../helpers/type-utils'
 
 export class Component<T> {
-  private props: T
+  private props
 
   constructor(props: T) {
     this.props = props

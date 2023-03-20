@@ -3,8 +3,8 @@ import { Equal, Expect } from '../helpers/type-utils'
 
 /**
  * There are two possible solutions to this problem - and it's
- * to do with the way you specify the generic. Can yozu get
- * both solutions?
+ * to do with the way you specify the generic. Can you get
+ * both solutions?i
  */
 const typedObjectKeys = <T extends string>(obj: Record<T, any>) => {
   return Object.keys(obj) as Array<T>
